@@ -55,7 +55,7 @@ Popup {
         wrapMode: Text.WordWrap
         horizontalAlignment: Text.AlignHCenter
 
-        onLinkActivated: Qt.openUrlExternally(link)
+        onLinkActivated: (link) => { Qt.openUrlExternally(link) }
       }
 
       Item {
